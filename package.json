@@ -1,0 +1,41 @@
+{
+  "name": "ioasys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabulsavul/ioasys.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabulsavul/ioasys/issues"
+  },
+  "homepage": "https://github.com/gabulsavul/ioasys#readme",
+  "dependencies": {
+    "@hapi/joi": "^15.0.3",
+    "bcrypt": "^3.0.6",
+    "dotenv-safe": "^6.1.0",
+    "email-templates": "^5.1.0",
+    "google-translate-api": "^2.3.0",
+    "graphql-request": "^1.8.2",
+    "joi-sql": "^1.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "nodemailer": "^6.2.1",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.2",
+    "request": "^2.88.0",
+    "restify": "^8.3.2",
+    "restify-errors": "^8.0.0",
+    "stormpath-restify": "^0.1.0",
+    "translate": "^1.1.0",
+    "typescript": "^3.5.3",
+    "underscore": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}

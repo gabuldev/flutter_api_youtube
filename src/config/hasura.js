@@ -5,10 +5,9 @@ const SECRET_HASURA = process.env.SECRETHASURA;
 
 class Hasura {
   static async send(data) {
+    console.log(BASE_URL);
     const client = new GraphQLClient(BASE_URL, {
-      headers: {
-        "x-hasura-admin-secret": SECRET_HASURA
-      }
+    
     });
     return await client.request(data);
   }
